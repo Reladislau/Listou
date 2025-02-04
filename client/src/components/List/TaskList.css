@@ -1,0 +1,107 @@
+.task_list_container{
+    width: 100%;
+    height: 150vh;
+    
+}
+
+.title_taskList_container{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.title_taskList_container h1{
+    font-family: Arimo;
+    font-weight: lighter;
+    color: #588157;
+    font-size: 7vh;
+    margin-left: 25px;
+    margin-bottom: 15px;
+}
+
+.nameList_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 50%;
+    height: 100%;
+}
+
+.title_taskList_container h2{
+    font-family: Delius;
+    margin-top: 0;
+}
+
+#title_tasks_container{
+    margin-top: 30px;
+    margin-left: 150px;
+    font-family: Delius;
+    font-size: 5vh;
+}
+
+
+.tasks_container{
+    width: 80%;
+    height: auto;
+    background-color: #dce1d2;
+    border-radius: 15px;
+    padding: 90px 0;
+    margin: 15px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial;
+}
+
+/* .tasks_container h2{
+    position: absolute;
+    margin-bottom: 25vh;
+    left: 32vw;
+} */
+
+#add_task{
+    width: 20%;
+    height: 7vh;
+    background-color: #588157;
+    color: #FFF;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+#add_task:hover{
+    background-color: #C9D5C9;
+    transition: 0.5s;
+}
+
+#button_add_task_modal {
+    width: 40%;
+    height: 7vh;
+    border-radius: 10px;
+    padding: auto;
+    background-color: #588157;
+    color: #FFF;
+    cursor: pointer;
+  }
+  
+  #button_add_task_modal:hover {
+    background-color: #8ccd8a;
+    transition: 0.5s;
+  }
+  
+  #button_cancel_add_task_modal {
+    width: 40%;
+    height: 7vh;
+    border-radius: 10px;
+    padding: auto;
+    background-color: #DEF2DD;
+    color: black;
+    cursor: pointer;
+  }
+  
+  #button_cancel_add_task_modal:hover {
+    background-color: #8ccd8a;
+    transition: 0.5s;
+  }

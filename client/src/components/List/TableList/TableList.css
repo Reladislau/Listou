@@ -1,0 +1,76 @@
+.table_list_container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.task_item{
+    background-color: #f0f2ec;
+    width: 90%;
+    height: 7vh;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+}
+
+.task_item input[type="checkbox"]{
+    width: 30px;
+    height: 30px;
+    border-radius: 5px; /* Bordas arredondadas */
+    appearance: none; /* Remove o estilo padrão do checkbox */
+    background-color: #fff; /* Cor de fundo padrão */
+    border: 2px solid #ccc; /* Borda padrão */
+    outline: none; /* Remove o contorno padrão */
+    cursor: pointer; /* Cursor de ponteiro */
+    transition: background-color 0.3s, border-color 0.3s; /* Transições suaves */
+}
+
+input[type="checkbox"]:checked {
+    background-color: #588157; /* Cor de fundo quando marcado */
+    border: 2px solid #8ccd8a; /* Borda quando marcado */
+  }
+
+.task_item label{
+    margin-left: 10px;
+    font-size: 3vh;
+}
+
+.buttons_tasks_container{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    align-items: center;
+    justify-content: right;
+}
+
+#button_edit_task, #button_delete_task{
+    width: 40px;
+    height: 40px;
+    background-color: #588157;
+    margin: 0 7px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#button_edit_task img, #button_delete_task img{
+    width: 70%;
+    height: 70%;
+}
+
+#button_edit_task:hover, #button_delete_task:hover{
+    background-color: #8ccd8a;
+    transition: 0.5s;
+}
+
+#table_list_text{
+    font-family: Delius;
+}

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+
+.menu_container {
+  position: fixed;
+  width: 20%;
+  height: 100vh; /* Altura total da tela */
+  background-color: #dad7cd;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu_hamburguer_container {
+  position: sticky;
+  width: 75%;
+  margin: 0 auto;
+  padding: 5px;
+  margin-top: 15px;
+  background-color: #588157;
+  border-radius: 15px;
+}
+
+.menu_hamburguer_container img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.container_lists {
+  max-width: 100%;
+  max-height: 300px; /* Defina a altura máxima do contêiner */
+  overflow-y: auto; /* Permite o scroll vertical */
+  border: 1px solid #ccc; /* Opcional: adiciona uma borda para visualização */
+  /* Opcional: adiciona padding */
+  margin-top: 15vh;
+  border: 0;
+  
+}
+
+.container_lists h2{
+  font-family: Arimo !important;
+  font-weight: lighter !important;
+}
+
+
+
+.list {
+  margin: 0 auto;
+  height: 50px;
+  width: 95%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  padding-left: 10px;
+  font-family: Arimo;
+}
+
+.list.selected {
+   background-color: #efeee9;/* Cor de fundo para a lista selecionada */
+   border-radius: 15px;
+   font-weight: bold;
+}
+
+.list:hover{
+  transition: 0.5s;
+  border-radius: 15px;
+  background-color: #8ccd8a;
+}
+
+#add_new_list_button {
+  width: 100px;
+  height: 40px;
+  background-color: #588157;
+  border-radius: 10px;
+  color: #fff;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+#modal_h1 {
+  font-family: Arimo;
+  font-size: 40px;
+}
+
+#input_text_modal {
+  width: 80%;
+  height: 7vh;
+  border: #588157 solid 1.5px;
+  padding-left: 15px;
+  border-radius: 15px;
+}
+
+.button_container_modal {
+  width: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#button_add_list_modal {
+  width: 40%;
+  height: 7vh;
+  border-radius: 10px;
+  padding: auto;
+  background-color: #588157;
+  color: #fff;
+  cursor: pointer;
+}
+
+#button_add_list_modal:hover {
+  background-color: #8ccd8a;
+  transition: 0.5s;
+}
+
+#button_cancel_add_list_modal {
+  width: 40%;
+  height: 7vh;
+  border-radius: 10px;
+  padding: auto;
+  background-color: #def2dd;
+  color: black;
+  cursor: pointer;
+}
+
+#button_cancel_add_list_modal:hover {
+  background-color: #8ccd8a;
+  transition: 0.5s;
+}
+
+/* Estilização da Barrinha de Scroll */
+
+/* Estilo da barra de rolagem */
+.container_lists::-webkit-scrollbar {
+  width: 5px; /* Largura da barra de rolagem */
+}
+
+/* Estilo do trilho da barra de rolagem */
+.container_lists::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Cor do trilho */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo do polegar da barra de rolagem */
+.container_lists::-webkit-scrollbar-thumb {
+  background: #888; /* Cor do polegar */
+  border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo do polegar da barra de rolagem quando estiver sendo clicado */
+.container_lists::-webkit-scrollbar-thumb:active {
+  background: #555; /* Cor do polegar quando clicado */
+}

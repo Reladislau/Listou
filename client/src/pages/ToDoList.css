@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jaini+Purva&family=Nanum+Gothic+Coding&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  
+  
+}
+
+/* Conteúdo dentro do container */
+
+.app_container {
+  width: 100%;
+  height: auto; /* Ajuste para ocupar a altura total da tela */
+  display: flex;
+  background-image: url(background2.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container_geral{
+  width: 80%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 15%;
+}
+
+.container_geral h1{
+  background-color: rgba(220, 220, 220, 0.603);
+  border-radius: 15px;
+  padding: 15px;
+  font-family: delius;
+  width: 65%;
+  margin: auto;
+}
+
+.menu_container {
+  width: 20%; /* Largura fixa para a navbar */
+  height: 100vh; /* Altura total da tela */
+  position: fixed; /* Fixar o menu */
+}
+
+.task_list_container {
+  margin-left: 15%; /* Espaço para o menu fixo */
+  width: 80%; /* O TaskList ocupará o restante do espaço */
+  padding: 20px;
+  height: auto; /* Ajuste para ocupar a altura total da tela */
+}
+
+.index_class_container{
+  width: 100%;
+  height: 100%;
+}
+
+
+.index_text{
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-top: 15px;
+  background-color: rgba(220, 220, 220, 0.603);
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.index_text h2{
+  font-family: Arimo;
+  text-align: center;
+}
+
+.img_index{
+  width: 35%;
+  height: 280px;
+}
+
+.img_index img{
+  height: 100%;
+  width: 100%;
+}
