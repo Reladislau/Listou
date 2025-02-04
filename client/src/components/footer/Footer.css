@@ -1,0 +1,22 @@
+.footerContainer{
+    width: 100%;
+    height: 180px;
+    background-color: #588157;
+    font-family: Arimo;
+    color: white;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+}
+
+.footerContainer p{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.footerContainer a{
+    text-decoration: none;
+    color: white;
+}
