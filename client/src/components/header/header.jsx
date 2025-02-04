@@ -3,8 +3,11 @@ import "./header.css";
 import { useNavigate } from "react-router-dom";
 
 function header() {
+
+  const Navigate = useNavigate()
+
   const goTo = () => {
-    useNavigate("/ToDoList");
+    Navigate("/ToDoList");
   };
 
   return (
