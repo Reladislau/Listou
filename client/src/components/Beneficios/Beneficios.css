@@ -21,10 +21,24 @@
     font-weight: bold;
 }
 
-.benefitsContainer p{
+#subText_benefits{
     text-align: center;
     margin-top: 25px;
     color: white;
     font-family: Arimo;
     font-size: 25px;
+}
+
+.itensContainer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.itensContainer div{
+    background-color: white;
+    border-radius: 15px;
+    width: 30%;
+    height: 270px;
 }
